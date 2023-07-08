@@ -1,0 +1,13 @@
+.Experience a {
+    font-family: "inter";
+    color: gray;
+    padding: 0;
+    margin-block: 0rem;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.Experience h1 {
+    text-align: center;
+}

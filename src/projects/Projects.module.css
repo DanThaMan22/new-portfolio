@@ -1,0 +1,13 @@
+.Projects a {
+    font-family: "inter";
+    color: gray;
+    padding: 0.5rem;
+    margin-block: 0rem;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.Projects h1 {
+    text-align: center;
+}

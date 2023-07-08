@@ -1,11 +1,12 @@
 import React from "react";
-import "./index.css";
+import styles from "./Navigation.module.css"
+
+
 const Navigation = () => {
   return (
-    <nav>
-      <div>
+    <nav className={styles.navCont}>
         <h1 className="header">Navigation</h1>
-        <div className="stackVert">
+        <div className={styles.stackVert}>
           <li>
             <a href="#about">About</a>
           </li>
@@ -16,7 +17,6 @@ const Navigation = () => {
             <a href="Projects">Projects</a>
           </li>
         </div>
-      </div>
     </nav>
   );
 };

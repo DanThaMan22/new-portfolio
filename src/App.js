@@ -1,12 +1,22 @@
-import Hero from "./Hero";
-import About from "./About";
-import Navigation from "./Navigation";
-import Experience from "./Experience";
-import Projects from "./Projects";
+import "./index.css"
+import Hero from "./hero/Hero"
+import About from "./about/About"
+import Navigation from "./header/Navigation"
+import Experience from "./experience/Experience"
+import Projects from "./projects/Projects"
+import styles from "./about/About.module.css"
 function App() {
-  return (
-    <div><Hero></Hero><Navigation></Navigation><About></About><Experience></Experience><Projects></Projects></div>
-  );
+    return (
+        <div className="everythingCont">
+            <Navigation></Navigation>
+            <div className={styles.rowCont}>
+                <Hero></Hero>
+                <About></About>
+            </div>
+            <Experience></Experience>
+            <Projects></Projects>
+        </div>
+    )
 }
 
-export default App;
+export default App

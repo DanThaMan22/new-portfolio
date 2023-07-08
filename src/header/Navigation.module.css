@@ -1,0 +1,30 @@
+.navCont {
+    position: fixed;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 3.5rem;
+    box-shadow: 0px 3px 5px lightslategray;
+    backdrop-filter: blue;
+}
+
+.stackVert {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 1.9rem;
+}
+.stackVert a {
+    color: lightslategray;
+    font-weight: bold;
+    margin-block: 10px;
+    text-decoration: none;
+}
+.stackVert a:hover {
+    color: white;
+}
