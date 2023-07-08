@@ -1,13 +1,20 @@
+.Experience {
+    position: relative;
+}
+
 .Experience a {
     font-family: "inter";
     color: gray;
-    padding: 0;
-    margin-block: 0rem;
+    padding-inline: 3.5rem;
+    margin-block: 0;
     font-size: 1.5rem;
     display: flex;
     flex-direction: row;
+    text-align: left;
+    max-width: fit-content;
 }
 
 .Experience h1 {
     text-align: center;
+    box-shadow: 0px 3px 0px lightslategray;
 }
