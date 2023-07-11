@@ -5,6 +5,7 @@ import Navigation from "./header/Navigation"
 import Experience from "./experience/Experience"
 import Projects from "./projects/Projects"
 import styles from "./about/About.module.css"
+import Footer from "./footer/footer"
 function App() {
     return (
         <div className="everythingCont">
@@ -15,6 +16,7 @@ function App() {
             </div>
             <Experience></Experience>
             <Projects></Projects>
+            <Footer></Footer>
         </div>
     )
 }

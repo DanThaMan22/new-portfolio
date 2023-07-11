@@ -5,13 +5,32 @@
 .Projects a {
     font-family: "inter";
     color: gray;
-    padding: 0.5rem;
+    padding: 0;
     margin-block: 0rem;
     font-size: 1.5rem;
     display: flex;
     flex-direction: row;
 }
+.Projects li {
+    font-family: "inter";
+    color: azure;
+    padding-inline: 1rem;
+    margin-block: 0;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    max-width: fit-content;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
 
 .Projects h1 {
     text-align: center;
+    box-shadow: 0px 3px 0px lightslategray;
+    font-family: "poppins";
+    padding: 0.5rem;
+    margin-block: 0rem;
+    color: azure;
+    font-size: 1.5rem;
 }
