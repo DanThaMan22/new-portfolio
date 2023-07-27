@@ -1,0 +1,29 @@
+* {box-sizing:border-box}
+
+.skillbar{
+  position: relative;
+  padding-inline-start: 3.5rem;
+} 
+
+p{
+display: block;
+font-size: 14px;
+font-weight: 600;
+color: azure;
+}
+
+.Skills_container {
+  position: relative;
+  padding-inline-start: 3.5rem;
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  gap: 20px;
+  width: 60%;
+}
+
+.container{
+  
+}
+
